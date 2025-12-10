@@ -1,0 +1,12 @@
+body::before{
+    display: block;
+    content: "";
+    height: 40px;
+
+}
+
+@media(min-width: 768px){
+    .news{
+        max-width: 50%;
+    }
+}
